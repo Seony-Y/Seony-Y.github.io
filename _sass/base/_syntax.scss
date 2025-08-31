@@ -130,20 +130,20 @@ div[class^='language-'] {
 
       $dot-margin: 1rem;
 
-      &::before {
+       &::before {
         content: '';
         display: inline-block;
         margin-left: $dot-margin;
         width: v.$code-dot-size;
         height: v.$code-dot-size;
         border-radius: 50%;
-        background-color: var(--code-header-muted-color);
+        background-color: #EB6150;
         box-shadow: (v.$code-dot-size + v.$code-dot-gap) 0 0
-            var(--code-header-muted-color),
+        #F3B63B,
           (v.$code-dot-size + v.$code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
+          #54BB44;
       }
-
+      
       span {
         // center the text of label
         margin-left: calc(($dot-margin + v.$code-dot-size) / 2 * -1);
