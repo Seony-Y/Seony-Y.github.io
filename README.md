@@ -1,7 +1,4 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
-
-  <!-- markdownlint-disable-next-line -->
 
 # Seony's 개발 블로그
 
