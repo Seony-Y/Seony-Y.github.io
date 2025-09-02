@@ -54,7 +54,7 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
             \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,http:\/\/rock-scissor-paper.react.seony.s3-website.ap-northeast-2.amazonaws.com/,http:\/\/dicegame.react.seony.s3-website.ap-northeast-2.amazonaws.com/"
+            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^http:\/\/rock-scissor-paper.react.seony.s3-website.ap-northeast-2.amazonaws.com/,/^http:\/\/dicegame.react.seony.s3-website.ap-northeast-2.amazonaws.com/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
